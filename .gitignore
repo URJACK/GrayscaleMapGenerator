@@ -1,3 +1,4 @@
 data
 *.idea
 *.iml
+*/node_modules
