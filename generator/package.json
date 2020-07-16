@@ -1,0 +1,28 @@
+{
+  "name": "grayscale_generator",
+  "version": "1.0.0",
+  "description": "A grayscale chart can be created in a variety of ways and provides a variety of sample code to read it.",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/URJACK/GrayscaleMapGenerator.git"
+  },
+  "keywords": [
+    "python",
+    "ai"
+  ],
+  "author": "ffz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/URJACK/GrayscaleMapGenerator/issues"
+  },
+  "homepage": "https://github.com/URJACK/GrayscaleMapGenerator#readme"
+}
