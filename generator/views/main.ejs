@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <script src="/public/js/vue.js"></script>
+    <script src="/public/js/jquery.slim.min.js"></script>
+    <script src="/public/js/popper.min.js"></script>
+    <script src="/public/js/bootstrap.min.js"></script>
+    <script src="/public/js/main.js"></script>
+    <link rel="stylesheet" href="/public/css/main.css">
+</head>
+
+<body>
+    <div class="container" id="app">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        你已经成功创建{{dataNum}}条数据
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm"></div>
+            <div class="col-sm" style="margin-top: 12px;">
+                <button type="button" class="btn btn-outline-primary">保存</button>
+                <button type="button" class="btn btn-outline-danger">重置</button>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-8">
+                <canvas id="oCanvas" width="600" height="600"></canvas>
+            </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    mainInit();
+</script>
+<style>
+</style>
+
+</html>

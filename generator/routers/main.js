@@ -8,7 +8,7 @@ router.use((req, res, next) => {
 })
 
 router.get('/', (req, res) => {
-    res.render('index', { title: 'Hey' })
+    res.render('main', { title: 'Hey' })
 })
 
 module.exports = router
